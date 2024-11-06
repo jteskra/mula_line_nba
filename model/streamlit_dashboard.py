@@ -13,8 +13,7 @@ st.sidebar.markdown('<hr style="border:2px solid black">', unsafe_allow_html=Tru
 
 #########################    LOAD MODEL    ################################
 
-file_path = "./not_scaled_nba.keras"
-# scaler = joblib.load('scaler_nba.joblib')
+
 
 
 ########################    PREPARING LISTS AND VARIABLES    #########################
@@ -204,7 +203,7 @@ try:
     df_combined_2['Home_defense_Team'] = df_combined_2['Home_defense_Team'].replace(team_mapping)
 
     # Load your machine learning model
-    model = load_model(file_path)
+    model = load_model("./not_scaled_nba.keras")
 
     # Select the features required for your model
     X = df_combined_2[[
