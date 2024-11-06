@@ -13,7 +13,7 @@ st.sidebar.markdown('<hr style="border:2px solid black">', unsafe_allow_html=Tru
 
 #########################    LOAD MODEL    ################################
 
-file_path = "not_scaled_nba.keras"
+file_path = "./not_scaled_nba.keras"
 # scaler = joblib.load('scaler_nba.joblib')
 
 
