@@ -201,7 +201,7 @@ try:
     df_combined_2['Home_defense_Team'] = df_combined_2['Home_defense_Team'].replace(team_mapping)
 
     # Load your machine learning model
-    model = load_model("model/not_scaled_nba.keras")
+    model = load_model("not_scaled_nba.keras")
 
     # Select the features required for your model
     X = df_combined_2[[
