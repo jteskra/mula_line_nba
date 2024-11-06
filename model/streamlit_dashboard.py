@@ -61,7 +61,7 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown('<hr style="border:3px solid black">', unsafe_allow_html=True)
 
 
-year = st.selectbox('**Select a year**', options=[2023, 2024])
+year = st.selectbox('**Select a year**', options=[2024, 2023])
 
 st.write('**American Odds to Decimal Odds Converter**')
 
