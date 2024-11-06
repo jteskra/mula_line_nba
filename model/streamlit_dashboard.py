@@ -215,7 +215,7 @@ try:
 
     # Run the model prediction
     predictions = model.predict(X)
-    st.write("The home team has a", predictions * 100, "chance of winning the game!")
+    st.write("The home team has a", predictions, "chance of winning the game!")
 
 except (KeyError, NameError) as e:
     # Display a warning message if any of the data is missing or undefined
