@@ -155,7 +155,7 @@ if submit:
 
         # Display the combined scraped data
         st.subheader('Combined Team Data')
-        st.dataframe(df_combined)
+
     else:
         st.write("No data was scraped. The table might not be available for the selected teams or year.")
 
