@@ -153,8 +153,6 @@ if submit:
                    'STL', 'BLK', 'TOV', 'PF', 'PTS']
         df_combined = pd.DataFrame(all_data, columns=headers)
 
-        # Display the combined scraped data
-        st.subheader('Combined Team Data')
 
     else:
         st.write("No data was scraped. The table might not be available for the selected teams or year.")
